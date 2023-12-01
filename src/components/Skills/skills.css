@@ -43,6 +43,7 @@
     margin: 1rem;
     padding: 1.5rem;
     border-radius: 0.5rem;
+    box-shadow: 4px 4px 2px 1px rgba(10, 10, 14, 0.5);
 }
 
 .skillBarImg {
@@ -67,6 +68,8 @@
     justify-content: space-around;
     align-content: space-around;
     flex-wrap: wrap;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 2px 1px rgba(10, 10, 14, 0.5);
 }
 
 .toolBox {
@@ -76,6 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 4px 4px 2px 1px rgba(10, 10, 14, 0.5);
 }
 
 .toolBoxImg {

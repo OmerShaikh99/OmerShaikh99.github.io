@@ -30,12 +30,7 @@ const Skills = () => {
         challenges of a fast-evolving industry, actively embracing the latest
         trends and continually honing my skills through personal projects,
         learning from industry leading products, and my own training and
-        development. <br /> <br />
-        <span className="skillDescriptionBoldText">
-          With a commitment to excellence, I bring a unique blend of technical
-          expertise and collaborative skills to deliver imaginative solutions to
-          the most difficult problems.
-        </span>
+        development.
       </span>
       <div className="skillBars">
         <div className="skillBar">
