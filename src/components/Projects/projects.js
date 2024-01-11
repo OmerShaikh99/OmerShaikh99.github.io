@@ -6,9 +6,6 @@ import Project3 from "../../assets/dancers/country.png";
 import Project4 from "../../assets/dancers/hip-hop.png";
 import Project5 from "../../assets/dancers/hopak.png";
 import Project6 from "../../assets/dancers/kathak.png";
-import Project7 from "../../assets/dancers/tango.png";
-import Project8 from "../../assets/dancers/waltz.png";
-import Project9 from "../../assets/dancers/shuffle.png";
 
 const Projects = () => {
   return (

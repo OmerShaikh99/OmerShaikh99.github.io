@@ -15,7 +15,9 @@ const Intro = () => {
         </span>
         <p className="introPara">
           I am a skilled data analyst and with experience leveraging data to
-          make better decisions for business
+          make better decisions for business. This website has been handcoded by
+          me to showcase some of my projects. Additonal pages and links are
+          currently under-contruction come back soon to see more!
         </p>
         <Link>
           <button className="btn">
