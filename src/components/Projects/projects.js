@@ -1,5 +1,5 @@
 import React from "react";
-import "./projects.css";
+import "./Projects.css";
 import Project1 from "../../assets/dancers/1920s-dancing.png";
 import Project2 from "../../assets/dancers/can-can.png";
 import Project3 from "../../assets/dancers/country.png";
@@ -9,8 +9,10 @@ import Project6 from "../../assets/dancers/kathak.png";
 import Project7 from "../../assets/dancers/tango.png";
 import Project8 from "../../assets/dancers/waltz.png";
 import Project9 from "../../assets/dancers/shuffle.png";
+import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
+  let navigate = useNavigate();
   return (
     <section id="works">
       <h2 className="worksTitle">My Projects</h2>
@@ -21,8 +23,15 @@ const Projects = () => {
       </span>
       <div className="worksImgs">
         <div className="worksCard card1">
-          Project Name Here
-          <img src={Project1} alt="Project1" className="worksImg" />
+          <a href="/diabetesProject">Diabetes Predictor</a>
+          <p>
+            In this project I clean a raw dataset of over 400 individuals and
+            train and refine a linear regression model to predict if someone has
+            diabetes based on pathology data
+          </p>
+          <div className="worksImgContainer">
+            <img src={Project1} alt="Project1" className="worksImg" />
+          </div>
         </div>
         <div className="worksCard card2">
           Project Name Here

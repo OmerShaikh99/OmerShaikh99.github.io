@@ -1,5 +1,5 @@
 import React from "react";
-import "./skills.css";
+import "./Skills.css";
 import DataAnalytics from "../../assets/dataconcepts/business-report.png";
 import DataScience from "../../assets/dataconcepts/data-science.png";
 import DataModelling from "../../assets/dataconcepts/data-modelling.png";

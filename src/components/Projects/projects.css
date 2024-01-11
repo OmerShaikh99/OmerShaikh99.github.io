@@ -31,24 +31,36 @@
     flex-wrap: wrap;
 }
 
+.worksImgContainer {
+    margin: 1rem 0;
+    overflow: visible;
+}
+
 .worksImg {
     object-fit: cover;
-    height: 15rem;
-    margin: 1rem 0;
+    height: 100%;
 }
 
 .worksCard {
     display: flex;
     flex-direction: column;
+    max-height: 30rem;
     padding: 2rem 1rem;
     margin: 0.5rem;
     font-size: 1.5rem;
     border-radius: 2rem;
     background: rgb(129,209,244);
     box-shadow: 4px 4px 2px 1px rgba(10, 10, 14, 0.5);
+    width: 30%;
 }
-.worksCard:hover {
-    cursor: pointer;
+
+#works a {
+    color:white
+}
+
+.worksCard p {
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 .worksButton {

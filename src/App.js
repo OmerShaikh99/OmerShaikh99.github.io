@@ -1,21 +1,19 @@
-import Navbar from "./components/Navbar/navbar";
-import Intro from "./components/Intro/intro";
-import Skills from "./components/Skills/skills";
-import Projects from "./components/Projects/projects";
-import Contact from "./components/Contact/contact";
-import Footer from "./components/Footer/footer";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Home from "./routes/Home.js";
+import ErrorPage from "./routes/ErrorPage/errorPage";
+import DiabetesProjectPage from "./routes/DiabetesProjectPage.js";
+
+const router = createBrowserRouter([
+  { path: "/", element: <Home />, errorElement: <ErrorPage /> },
+  {
+    path: "/diabetesProject",
+    element: <DiabetesProjectPage />,
+    errorElement: <ErrorPage />,
+  },
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Intro />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

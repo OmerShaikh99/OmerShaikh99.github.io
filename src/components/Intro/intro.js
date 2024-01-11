@@ -1,5 +1,5 @@
 import React from "react";
-import "./intro.css";
+import "./Intro.css";
 import bg from "../../assets/profile.png";
 import hireme from "../../assets/hireme.png";
 import { Link } from "react-scroll";
