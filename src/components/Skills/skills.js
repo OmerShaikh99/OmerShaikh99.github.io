@@ -41,14 +41,21 @@ const Skills = () => {
           />
           <div className="skillBarText">
             <h2>Data Analytics</h2>
-            <p>Your Text Here Your Text Here</p>
+            <p>
+              Interpret extensive datasets to extract valuable insights and
+              facilitate informed decision-making in various contexts
+            </p>
           </div>
         </div>
         <div className="skillBar">
           <img src={DataScience} alt="DataScience" className="skillBarImg" />
           <div className="skillBarText">
             <h2>Data Science</h2>
-            <p>Your Text Here Your Text Here</p>
+            <p>
+              Employ advanced statistical and computational techniques to
+              extract meaningful insights, solve complex problems, and
+              contribute to data-driven decisions
+            </p>
           </div>
         </div>
         <div className="skillBar">
@@ -59,7 +66,11 @@ const Skills = () => {
           />
           <div className="skillBarText">
             <h2>Data Modelling</h2>
-            <p>Your Text Here Your Text Here</p>
+            <p>
+              Design and structure data representations to enhance
+              understanding, optimize storage and retrieval, and support
+              effective analysis
+            </p>
           </div>
         </div>
         <div className="skillBar">
@@ -70,7 +81,10 @@ const Skills = () => {
           />
           <div className="skillBarText">
             <h2>Data Wrangling</h2>
-            <p>Your Text Here Your Text Here</p>
+            <p>
+              Cleaning, transforming, and organizing raw and complex datasets
+              into a more structured and usable format
+            </p>
           </div>
         </div>
         <div className="skillBar">
@@ -81,7 +95,11 @@ const Skills = () => {
           />
           <div className="skillBarText">
             <h2>Data Engineering</h2>
-            <p>Your Text Here Your Text Here</p>
+            <p>
+              Design, construct, and maintain robust data architectures,
+              pipelines, and infrastructure, ensuring the efficient and reliable
+              flow of data
+            </p>
           </div>
         </div>
         <div className="skillBar">
@@ -92,7 +110,10 @@ const Skills = () => {
           />
           <div className="skillBarText">
             <h2>Machine Learning</h2>
-            <p>Your Text Here Your Text Here</p>
+            <p>
+              Train and deploy models that enable systems to learn from data,
+              make predictions, and continually improve performance
+            </p>
           </div>
         </div>
       </div>

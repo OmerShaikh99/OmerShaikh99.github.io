@@ -21,40 +21,28 @@ const Projects = () => {
       </span>
       <div className="worksImgs">
         <div className="worksCard card1">
-          Project Name Here
+          Hospital Wait-times
           <img src={Project1} alt="Project1" className="worksImg" />
         </div>
         <div className="worksCard card2">
-          Project Name Here
+          Movies, Movies, Movies
           <img src={Project2} alt="Project2" className="worksImg" />
         </div>
         <div className="worksCard card3">
-          Project Name Here
+          Stocks and Crypto
           <img src={Project3} alt="Project3" className="worksImg" />
         </div>
         <div className="worksCard card4">
-          Project Name Here
+          Diabetes Predictor
           <img src={Project4} alt="Project4" className="worksImg" />
         </div>
         <div className="worksCard card5">
-          Project Name Here
+          AI Pong
           <img src={Project5} alt="Project5" className="worksImg" />
         </div>
         <div className="worksCard card6">
-          Project Name Here
+          More...
           <img src={Project6} alt="Project6" className="worksImg" />
-        </div>
-        <div className="worksCard card7">
-          Project Name Here
-          <img src={Project7} alt="Project7" className="worksImg" />
-        </div>
-        <div className="worksCard card8">
-          Project Name Here
-          <img src={Project8} alt="Project8" className="worksImg" />
-        </div>
-        <div className="worksCard card9">
-          Project Name Here
-          <img src={Project9} alt="Project9" className="worksImg" />
         </div>
       </div>
       <button className="worksButton">See More</button>
